@@ -31,4 +31,4 @@ for(var i=0; i<sups.length; i++) {
             if(footnotepopup) footnotepopup.parentNode.removeChild(footnotepopup);
         };
     }
-}[][1][1]: nil
+}

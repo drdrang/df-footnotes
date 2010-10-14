@@ -19,7 +19,12 @@
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
-		<dict/>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>df-footnotes.js</string>
+			</array>
+		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Popup footnotes for Daring Fireball via Lukas Mathis's JavaScript.</string>
@@ -28,7 +33,16 @@
 	<key>Permissions</key>
 	<dict>
 		<key>Website Access</key>
-		<dict/>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.daringfireball.net</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://www.leancrew.com/all-this/2010/10/popup-footnotes-in-a-safari-extension/</string>
 </dict>
 </plist>
