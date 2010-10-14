@@ -18,9 +18,9 @@ for(var i=0; i<sups.length; i++) {
             popup.style.position = 'absolute';
             popup.style.left = (event.pageX - 125) + 'px';
             popup.style.top = (event.pageY + 25) + 'px';
-            popup.style.width = '250px';
+            popup.style.width = '350px';              // wider popup
             popup.style.textAlign = 'left';
-            popup.style.backgroundColor = '#4a525a';
+            popup.style.backgroundColor = '#394048';  // darker background color
             popup.style.border = '1px solid #636363';
             popup.style.padding = '10px';
             
