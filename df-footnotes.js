@@ -11,7 +11,7 @@ for(var i=0; i<sups.length; i++) {
         sup.onmouseover = function(event) {
             var footnotepopup = document.getElementById('footnotepopup');
             if(footnotepopup) footnotepopup.parentNode.removeChild(footnotepopup);
-            var index = parseInt(this.getAttribute('footnoteindex'));
+            var index = parseInt(this.getAttribute('footnoteindex'), 10);
             var popup = document.createElement('div');
             popup.innerHTML = footnotehtml[index];
             popup.id = 'footnotepopup';
